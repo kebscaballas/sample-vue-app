@@ -18,3 +18,8 @@ Your machine should have the following dependencies installed:
 **Running the Project**
 
 To run the project, run `npm run dev` inside the project directory. By default, you can view the page by going to [localhost:8080](http://localhost:8080) on your browser.
+
+
+**Checking out pages' source codes**
+
+If you want to check out how the front-end was made, the source files can be found inside the `./src` folder.
