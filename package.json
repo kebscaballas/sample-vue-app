@@ -1,7 +1,7 @@
 {
   "name": "sample-vue-app",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "A Bootstrap Vue sample project",
   "author": "",
   "private": true,
   "scripts": {
