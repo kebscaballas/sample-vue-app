@@ -6,17 +6,8 @@
             </b-col>
         </b-row>
         <b-row no-gutters>
-            <b-col sm="6" md="3" class="item">
-                <b-img src="./assets/flat-angry.jpg" fluid-grow rounded="circle" alt="Angry Image"/>
-            </b-col>
-            <b-col sm="6" md="3" class="item">
-                <b-img src="./assets/flat-angry.jpg" fluid-grow rounded="circle" alt="Angry Image"/>
-            </b-col>
-            <b-col sm="6" md="3" class="item">
-                <b-img src="./assets/flat-angry.jpg" fluid-grow rounded="circle" alt="Angry Image"/>
-            </b-col>
-            <b-col sm="6" md="3" class="item">
-                <b-img src="./assets/flat-angry.jpg" fluid-grow rounded="circle" alt="Angry Image"/>
+            <b-col>
+                <linkgrid></linkgrid> 
             </b-col>
         </b-row>
     </b-container>
@@ -24,10 +15,12 @@
 
 <script>
     import Carousel from './components/Carousel'
+    import Linkgrid from './components/Linkgrid'
     export default {
         name: 'Home',
         components: {
-            Carousel
+            Carousel,
+            Linkgrid
         }
     }
 </script>
